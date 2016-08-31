@@ -1,14 +1,14 @@
 {
-    "name": "statique-web",
+    "name": "gigtoday.github.io",
     "version": "0.1.0",
-    "description": "Statique is an unopinionated, minimalist library for static website creation and publishing build with Node.js.",
+    "description": "",
     "scripts": {
         "build": "./node_modules/gulp/bin/gulp.js dist",
         "start": "./node_modules/gulp/bin/gulp.js watch"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/matchilling/statique.git"
+        "url": "git@github.com:gigtoday/gig.today.git"
     },
     "author": {
         "name": "Mathias Schilling",
@@ -17,9 +17,9 @@
     },
     "license": "GPL-3.0",
     "bugs": {
-        "url": "https://github.com/matchilling/statique/issues"
+        "url": "https://github.com/gigtoday/gigtoday.github.io/issues"
     },
-    "homepage": "https://www.statique.org",
+    "homepage": "https://gig.today",
     "devDependencies": {
         "babelify": "^7.3",
         "browser-sync": "^2.14",
