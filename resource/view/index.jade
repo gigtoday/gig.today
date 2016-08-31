@@ -1,0 +1,11 @@
+extends ./layout/base.jade
+
+block append content
+    .row.center(style='margin-top: 150px;')
+        .col-2
+        .col-8
+            img(alt='GIGtoday', src='/assets/image/logo/128x128_transparent.png')
+            h1 #{locals.config.name}
+            p Coming soon!
+            span.block(style='font-size:90%;margin-top: 25px;') Contact: m@matchilling.com
+        .col-2
