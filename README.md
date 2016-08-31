@@ -1,6 +1,6 @@
-# statique.org
+# gig.today!
 
-Statique is an unopinionated, minimalist library for static website creation and publishing build with Node.js.
+Who's playing today? Find the very best live music and recommended gigs near you tonight.
 
 ## Deploy
 
