@@ -25,10 +25,10 @@ gulp.task('dist', function() {
         gulp.src(CONFIG.deploy.path.font).pipe(gulp.dest(dist('assets/font')));
         gulp.src(CONFIG.deploy.path.img).pipe(gulp.dest(dist('assets/image')));
 
-        fs.writeFile(dist('CNAME'), CONFIG.deploy.cname, {
-            encoding: 'utf-8',
-            flag: 'w'
-        });
+        // fs.writeFile(dist('CNAME'), CONFIG.deploy.cname, {
+        //     encoding: 'utf-8',
+        //     flag: 'w'
+        // });
     });
 });
 

@@ -8,6 +8,15 @@ Who's playing today? Find the very best live music and recommended gigs near you
 $ gulp build-deploy-gh-pages
 ```
 
+### Deploy to amazon s3
+
+```shell
+$ rm -rf dist/ && \
+  gulp dist && \
+  aws s3 rm s3://www.gig.today --recursive && \
+  aws s3 cp dist/ s3://www.gig.today/ --recursive --acl public-read
+```
+
 ## Gulp options
 
 ```shell

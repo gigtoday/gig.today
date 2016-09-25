@@ -4,6 +4,7 @@
     "description": "",
     "scripts": {
         "build": "./node_modules/gulp/bin/gulp.js dist",
+        "deploy:s3": "rm -rf dist/ && gulp dist && aws s3 rm s3://www.gig.today --recursive && aws s3 cp dist/ s3://www.gig.today/ --recursive --acl public-read",
         "start": "./node_modules/gulp/bin/gulp.js watch"
     },
     "repository": {
