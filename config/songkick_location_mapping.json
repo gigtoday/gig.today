@@ -1,33 +1,106 @@
 [{
-    "id": 31366,
-    "slug": "amsterdam",
-    "name": "Amsterdam"
-}, {
-    "id": 28714,
-    "slug": "barcelona",
-    "name": "Barcelona"
-}, {
-    "id": 28617,
-    "slug": "copenhagen",
-    "name": "Copenhagen"
-}, {
-    "id": 34786,
-    "slug": "krakow",
-    "name": "Krakow"
-}, {
-    "id": 24426,
-    "slug": "london",
-    "name": "London"
-}, {
-    "id": 28755,
-    "slug": "madrid",
-    "name": "Madrid"
-}, {
-    "id": 28909,
-    "slug": "paris",
-    "name": "Paris"
-}, {
-    "id": 28425,
-    "slug": "prague",
-    "name": "Prague"
-}]
+        "id": 31366,
+        "slug": "amsterdam",
+        "name": "Amsterdam"
+    }, {
+        "id": 28714,
+        "slug": "barcelona",
+        "name": "Barcelona"
+    }, {
+        "id": 34580,
+        "slug": "beijing",
+        "name": "Beijing"
+    }, {
+        "id": 28443,
+        "slug": "berlin",
+        "name": "Berlin"
+    }, {
+        "id": 29047,
+        "slug": "budapest",
+        "name": "Budapest"
+    }, {
+        "id": 32911,
+        "slug": "buenos-aires",
+        "name": "Buenos Aires"
+    }, {
+        "id": 28617,
+        "slug": "copenhagen",
+        "name": "Copenhagen"
+    }, {
+        "id": 9426,
+        "slug": "chicago",
+        "name": "Chicago"
+    }, {
+        "id": 29314,
+        "slug": "dublin",
+        "name": "Dublin"
+    }, {
+        "id": 31802,
+        "slug": "lisbon",
+        "name": "Lisbon"
+    }, {
+        "id": 24426,
+        "slug": "london",
+        "name": "London"
+    }, {
+        "id": 17835,
+        "slug": "los-angeles",
+        "name": "Los Angeles"
+    }, {
+        "id": 28755,
+        "slug": "madrid",
+        "name": "Madrid"
+    }, {
+        "id": 32051,
+        "slug": "moscow",
+        "name": "Moscow"
+    }, {
+        "id": 34385,
+        "slug": "mexico-city",
+        "name": "Mexico City"
+    }, {
+        "id": 7644,
+        "slug": "new-york-city",
+        "name": "New York City"
+    }, {
+        "id": 28909,
+        "slug": "paris",
+        "name": "Paris"
+    }, {
+        "id": 28425,
+        "slug": "prague",
+        "name": "Prague"
+    }, {
+        "id": 30366,
+        "slug": "rome",
+        "name": "Rome"
+    }, {
+        "id": 27232,
+        "slug": "rio-de-janeiro",
+        "name": "Rio de Janeiro"
+    }, {
+        "id": 26330,
+        "slug": "san-francisco",
+        "name": "San Francisco"
+    }, {
+        "id": 2846,
+        "slug": "seattle",
+        "name": "Seattle"
+    }, {
+        "id": 28033,
+        "slug": "shanghai",
+        "name": "Shanghai"
+    }, {
+        "id": 32252,
+        "slug": "stockholm",
+        "name": "Stockholm"
+    }, {
+        "id": 26794,
+        "slug": "sydney",
+        "name": "Sydney"
+    }, {
+        "id": 27398,
+        "slug": "vancouver",
+        "name": "Vancouver"
+    }
+]
