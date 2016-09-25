@@ -22,8 +22,9 @@
     font-weight: 700;
     src: local('Lato Bold Italic'), url('../font/lato/black-italic.woff') format('woff'), url('../font/lato/black-italic.woff2') format('woff2');
 }
-$font-family: 'Lato', Helvetica, sans-serif;
+
+$font-family: 'SansPro Light',sans-serif;
 $font-weight-light: 300;
 $font-weight-regular: 400;
 $font-weight-heavy: 700;
-$font-height: 1.5;
+$font-height: 1.5

@@ -1,0 +1,33 @@
+[{
+    "id": 31366,
+    "slug": "amsterdam",
+    "name": "Amsterdam"
+}, {
+    "id": 28714,
+    "slug": "barcelona",
+    "name": "Barcelona"
+}, {
+    "id": 28617,
+    "slug": "copenhagen",
+    "name": "Copenhagen"
+}, {
+    "id": 34786,
+    "slug": "krakow",
+    "name": "Krakow"
+}, {
+    "id": 24426,
+    "slug": "london",
+    "name": "London"
+}, {
+    "id": 28755,
+    "slug": "madrid",
+    "name": "Madrid"
+}, {
+    "id": 28909,
+    "slug": "paris",
+    "name": "Paris"
+}, {
+    "id": 28425,
+    "slug": "prague",
+    "name": "Prague"
+}]

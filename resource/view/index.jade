@@ -1,11 +1,16 @@
 extends ./layout/base.jade
 
 block append content
-    .row.center(style='margin-top: 150px;')
+    .row.center(style='margin-top: 50px;')
         .col-2
         .col-8
-            img(alt='GIGtoday', src='/assets/image/logo/128x128_transparent.png')
+            a(href='/')
+                img(alt='GIGtoday', src='/assets/image/logo/128x128_transparent.png')
             h1 #{locals.config.name}
-            p Coming soon!
-            span.block(style='font-size:90%;margin-top: 25px;') Contact: m@matchilling.com
+            p Find the best live music for this evening
+
+            div(class='row locations', style='margin-top: 50px;')
+                each location in locals.locations
+                    div(class='col-12 location')
+                        a(class='btn color-lila', href='/#{location.slug}' title='#{location.name} events today') #{location.name}
         .col-2

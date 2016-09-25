@@ -1,9 +1,14 @@
 @import 'partial/_reset';
+@import 'partial/_button';
 @import 'partial/_color';
 @import 'partial/_font';
 @import 'partial/_grid';
 @import 'partial/_typography';
 @import 'partial/_utility';
+
+// Partials
+@import 'partial/_card';
+
 body,
 html {
     height: 100%;
@@ -14,8 +19,24 @@ html {
     top: 0;
     font-size: 100%;
     font-family: $font-family;
-    font-weight: $font-weight-light;
+    font-weight: $font-weight-regular;
     font-style: normal;
     color: $dark-grey;
     line-height: $font-height;
+}
+
+footer {
+    color: lighten($dark-gray, 50);
+    margin: 25px 0;
+}
+
+.locations {
+    margin: 25px 0;
+    .location {
+        margin: 5px 0;
+        a {
+            display: block;
+            width: 100%;
+        }
+    }
 }

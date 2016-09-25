@@ -37,6 +37,7 @@
         "gulp-sourcemaps": "^1.6",
         "require-dir": "^0.3",
         "run-sequence": "^1.2",
+        "songkick": "^1",
         "vinyl-source-stream": "^1.1",
         "yargs": "^4.8.1"
     }

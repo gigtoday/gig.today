@@ -1,0 +1,81 @@
+.card {
+    border-style: solid;
+    border-width: 2px;
+
+    .card-content {
+        padding: 20px;
+        border-radius: 0 0 2px 2px;
+
+        p {
+            margin: 0;
+            color: inherit;
+        }
+
+        .card-pretitle {
+            color: $dark-gray;
+            display: block;
+            font-size: 70%;
+            text-transform: uppercase;
+        }
+
+        .card-title {
+            display: block;
+            font-size: 140%;
+            font-weight: 400;
+        }
+
+        .card-meta {
+            margin-top: 10px;
+            fill: $dark-gray;
+            color: $dark-gray;
+            font-size: 85%;
+
+            .start {
+                margin-right: 20px;
+
+                .date {
+                    top: -4px;
+                    left: 4px;
+                    position: relative;
+
+                    .time {
+                        &::before {
+                            content: ', ';
+                        }
+                    }
+                }
+            }
+
+            .location {
+                margin-right: 20px;
+
+                .venue {
+                    top: -4px;
+                    left: 4px;
+                    position: relative;
+                    margin-right: 5px;
+                }
+
+                .city {
+                    top: -4px;
+                    left: 4px;
+                    position: relative;
+                }
+            }
+        }
+    }
+
+    .card-action {
+        position: relative;
+        background-color: inherit;
+        border-top: 1px solid rgba($dark-gray, 0.2);
+        padding: 20px;
+
+        a:not(.btn) {
+            color: $orange;
+            margin-right: 20px;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+    }
+}
