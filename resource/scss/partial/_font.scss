@@ -1,28 +1,3 @@
-@font-face {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 300;
-    src: local('Lato Light'), url('../font/lato/hairline.woff') format('woff'), url('../font/lato/hairline.woff2') format('woff2');
-}
-@font-face {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Lato'), url('../font/lato/medium.woff') format('woff'), url('../font/lato/medium.woff2') format('woff2');
-}
-@font-face {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Lato Bold'), url('../font/lato/black.woff') format('woff'), url('../font/lato/black.woff2') format('woff2');
-}
-@font-face {
-    font-family: 'Lato';
-    font-style: italic;
-    font-weight: 700;
-    src: local('Lato Bold Italic'), url('../font/lato/black-italic.woff') format('woff'), url('../font/lato/black-italic.woff2') format('woff2');
-}
-
 $font-family: 'SansPro Light',sans-serif;
 $font-weight-light: 300;
 $font-weight-regular: 400;
