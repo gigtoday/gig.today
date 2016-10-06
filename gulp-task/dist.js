@@ -6,6 +6,7 @@ let babelify = require('babelify'),
     concat = require('gulp-concat'),
     concatJson = require('gulp-concat-json'),
     dist = require('./util.js').dist,
+    env = require('dotenv').config(),
     fs = require('fs'),
     gulp = require('gulp'),
     jade = require('gulp-jade'),
@@ -17,18 +18,13 @@ let babelify = require('babelify'),
     sass = require('gulp-sass'),
     source = require('vinyl-source-stream'),
     sourcemaps = require('gulp-sourcemaps'),
-    Songkick = new require('songkick')(process.env.SONGKICK_API_KEY),
+    Songkick = new require('songkick')(env.SONGKICK_API_KEY),
     util = require('util');
 
 gulp.task('dist', function() {
     runSequence('dist-client-js', 'dist-css', 'dist-html', function() {
         gulp.src(CONFIG.deploy.path.font).pipe(gulp.dest(dist('assets/font')));
         gulp.src(CONFIG.deploy.path.img).pipe(gulp.dest(dist('assets/image')));
-
-        // fs.writeFile(dist('CNAME'), CONFIG.deploy.cname, {
-        //     encoding: 'utf-8',
-        //     flag: 'w'
-        // });
     });
 });
 

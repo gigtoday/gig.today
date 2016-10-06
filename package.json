@@ -25,6 +25,7 @@
         "babelify": "^7.3",
         "browser-sync": "^2.14",
         "browserify": "^13.1",
+        "dotenv": "^2.0.0",
         "fs": "0.0.2",
         "gulp": "^3.9",
         "gulp-clean-css": "^2.0",
