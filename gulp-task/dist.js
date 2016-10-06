@@ -74,7 +74,8 @@ gulp.task('dist-html', function() {
                 locations : locations,
                 meta      : {
                     title       : CONFIG.name,
-                    description : CONFIG.description
+                    description : CONFIG.description,
+                    updated     : new Date()
                 }
             }
         }))
@@ -121,7 +122,8 @@ gulp.task('dist-html', function() {
                           'Who\'s playing today in %s? Find the very best live music and recommended gigs tonight in %s.',
                           location.name,
                           location.name
-                      )
+                      ),
+                      updated     : new Date()
                   }
               }
           }))
